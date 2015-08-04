@@ -26,6 +26,7 @@ module.exports = function(config) {
       'vendor/angular-route/angular-route.js',
       'vendor/angular-cookies/angular-cookies.js',
       'vendor/angular-mocks/angular-mocks.js',
+      'build/templates.js',
       'src/**/*.js',
       'test/**/*.js'
     ],
