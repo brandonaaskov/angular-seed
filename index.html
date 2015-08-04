@@ -19,6 +19,7 @@
 
   <!-- ui/ux framework -->
   <link rel="stylesheet" href="vendor/pure/pure-min.css">
+  <script type="text/javascript" src="//api.filepicker.io/v2/filepicker.js"></script>
 
   <!-- application -->
   <link rel="stylesheet" href="build/angular-seed.css"> <!-- styles build file -->
@@ -27,6 +28,8 @@
 </head>
 <body ng-app="angular-seed" ng-cloak>
   <navigation></navigation>
+
+  <div filepicker></div>
 
   <div ng-view layout="column" class="page"></div>
 </body>
